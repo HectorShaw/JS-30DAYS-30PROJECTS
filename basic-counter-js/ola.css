@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    background-color: bisque;
+}
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+#counter{
+    display: flex;
+    justify-content: center;
+    font-size: 800%;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    align-items: center;
+    height: 2cm
+}
+
+#inc{
+    background-color: green;
+    width: 20%;
+}
+#dec{
+    background-color: red;
+    width: 20%;
+    
+
+}
+#res{
+    color: white;
+    background-color: black;
+    width: 20%;
+}
