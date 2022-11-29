@@ -15,12 +15,12 @@ add.addEventListener( 'click' , (e)=> {
 });
 
 less.addEventListener( 'click' , ()=> {
-    if (update <= 0){
-        update = 0;
-    }
-    update -= 1;
-    count.innerHTML = update;
-
+    if (update >= 1){
+        update -= 1;
+   } else {
+     update = 0;
+   }
+   count.innerHTML = update;
 });
 
 zero.addEventListener( 'click' , ()=> {
